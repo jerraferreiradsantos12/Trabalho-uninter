@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Jerrá Ferreira</title>
+
+    <!-- Conexão com o arquivo de estilo -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Conexão com o JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho e menu de navegação -->
+    <header>
+        <h1>Jerrá Ferreira</h1>
+        <!-- Botão de tema -->
+        <button id="btnTema">🌙 Tema Escuro</button>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção principal -->
+    <main>
+        <!-- Seção de introdução -->
+        <section class="intro">
+            <h2>Bem-vindo ao meu portfólio!</h2>
+            <p>Sou estudante e desenvolvedor apaixonado por tecnologia, programação e inovação. Aqui você encontra meus projetos, experiências e formas de contato.</p>
+            <button id="btnSaibaMais">Saiba Mais</button>
+        </section>
+
+        <!-- Seção de destaques -->
+        <section class="highlights">
+            <h2>Destaques</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>💻 Projetos</h3>
+                    <p>Veja os trabalhos e sistemas que desenvolvi durante meus estudos e experiências profissionais.</p>
+                    <a href="#portfolio" class="btn">Ver mais</a>
+                </div>
+                <div class="card">
+                    <h3>📚 Formação</h3>
+                    <p>Conheça minha trajetória acadêmica e as áreas que estudo.</p>
+                    <a href="#formacao" class="btn">Ler mais</a>
+                </div>
+                <div class="card">
+                    <h3>📞 Contato</h3>
+                    <p>Quer conversar comigo? Me envie uma mensagem ou acesse meu LinkedIn.</p>
+                    <a href="#contato" class="btn">Entrar em contato</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mim -->
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Meu nome é Jerrá Ferreira. Sou estudante e desenvolvedor apaixonado por tecnologia. Meus hobbies incluem programação, jogos e inovação.</p>
+        </section>
+
+        <!-- Formação -->
+        <section id="formacao">
+            <h2>Formação</h2>
+            <ul>
+                <li>Técnico em Segurança do Trabalho</li>
+                <li>Cursos de programação e desenvolvimento web</li>
+                <li>Inglês intermediário</li>
+            </ul>
+        </section>
+
+        <!-- Portfólio e experiência -->
+        <section id="portfolio">
+            <h2>Portfólio & Experiência</h2>
+            <div class="cards">
+                <!-- Freelancer -->
+                <div class="card">
+                    <h3>💼 Trabalho como Freelancer</h3>
+                    <p>Desenvolvimento de sistemas e aplicativos personalizados para clientes, incluindo sites e ferramentas de automação.</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+
+                <!-- Ciência de Dados -->
+                <div class="card">
+                    <h3>📊 Ciência de Dados</h3>
+                    <p>Projetos de análise de dados, incluindo manipulação de grandes volumes de dados, criação de dashboards e uso de Python/Apache Spark.</p>
+                    <a href="#" class="btn">Ver Projetos</a>
+                </div>
+
+                <!-- Projetos Acadêmicos -->
+                <div class="card">
+                    <h3>💻 Projetos Acadêmicos</h3>
+                    <p>Sistemas e trabalhos desenvolvidos durante a faculdade, como análise de dados e desenvolvimento web.</p>
+                    <a href="#" class="btn">Ver Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="social-links" style="text-align:center; margin-top:20px;">
+                <p>Ou me contate diretamente:</p>
+                <a href="mailto:jerraferreiradssantos12@gmail.com" style="margin-right:15px;">📧 jerraferreiradssantos12@gmail.com</a>
+                <a href="https://www.linkedin.com/in/jerr%C3%A1-ferreira-aa5861205/" target="_blank">🔗 LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Jerrá Ferreira — Todos os direitos reservados.</p>
+        <p>
+            <a href="mailto:jerraferreiradssantos12@gmail.com" style="color:white; margin-right:15px; text-decoration:none;">📧 E-mail</a>
+            <a href="https://www.linkedin.com/in/jerr%C3%A1-ferreira-aa5861205/" target="_blank" style="color:white; text-decoration:none;">🔗 LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
